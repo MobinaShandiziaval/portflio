@@ -83,4 +83,31 @@
     width: 100%;
     margin-right: 0 !important;
   }
+  .mobile-nav {
+    display: block;
+    background-color: #333533;
+    color: #d9d9d9;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .mobile-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+  }
+  .mobile-nav ul li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    flex: 1;
+  }
+  .mobile-nav ul li i {
+    margin-right: 5px;
+  }
+  .mobile-nav ul li.active {
+    color: #ffd100;
+    border-bottom: 4px solid #ffd100;
+  }
 }

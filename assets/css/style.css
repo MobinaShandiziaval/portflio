@@ -96,17 +96,17 @@ ul {
   border-radius: 50%;
 }
 
-nav {
+.continer nav {
   width: 250px;
   font-size: 24px;
 }
-nav ul li {
+.continer nav ul li {
   cursor: pointer;
 }
-nav li.active {
+.continer nav li.active {
   font-weight: 500;
 }
-nav ul li .marker {
+.continer nav ul li .marker {
   width: 45px;
   right: 45px;
   line-height: 42px;
@@ -117,13 +117,13 @@ nav ul li .marker {
   vertical-align: middle;
   margin-right: 12px;
 }
-nav ul li.active .marker,
-nav ul li:hover .marker {
+.continer nav ul li.active .marker,
+.continer nav ul li:hover .marker {
   background-color: #333533;
   color: #ffd100;
   font-size: 22px;
 }
-nav ul li:not(:last-child)::after {
+.continer nav ul li:not(:last-child)::after {
   content: "";
   display: block;
   height: 48px;
